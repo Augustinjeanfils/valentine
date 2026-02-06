@@ -37,3 +37,20 @@ img{
     width: 200px;
 }
 
+/* Media query pour les écrans de petite taille (téléphones) */
+@media (max-width: 600px) {
+    .souvenir {
+      flex-direction: row;
+      flex-wrap: wrap; /* Empile les images verticalement */
+      justify-content: flex-start; /* Aligne les images à gauche */
+      
+    }
+    img {
+      width: 48%; /* Les images prennent toute la largeur de l'écran */
+      box-sizing: border-box;
+      max-width: 300px; /* Limite la largeur maximale des images */
+      margin-bottom: 10px;
+      
+    }
+  }
+
