@@ -44,14 +44,17 @@ img{
       display: flex;
       flex-direction: row;
       flex-wrap: wrap; /* Empile les images verticalement */
-      justify-content: flex-start; /* Aligne les images à gauche */
+      justify-content: space-between; /* Aligne les images à gauche */
+      padding: 10px;
       
     }
     img {
-      width: 48%; /* Les images prennent toute la largeur de l'écran */
+      width: 49%; /* Les images prennent toute la largeur de l'écran */
       box-sizing: border-box;
-    /*  max-width: 300px; Limite la largeur maximale des images */
+      height: auto;
+      object-fit: cover;
       margin-bottom: 10px;
+      border-radius:8px;
 
     }
   }
