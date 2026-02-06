@@ -42,18 +42,15 @@ img{
 @media (max-width: 600px) {
     .souvenir {
       display: flex;
-      flex-direction: row;
       flex-wrap: wrap; /* Empile les images verticalement */
-      justify-content: space-between; /* Aligne les images à gauche */
+      gap: 10px;
       padding: 10px;
       
     }
     img {
-      width: 49%; /* Les images prennent toute la largeur de l'écran */
-      box-sizing: border-box;
+      width: calc(50% - 5px); /* Ajuste la largeur pour deux images par ligne avec un petit espace */
       height: auto;
       object-fit: cover;
-      margin-bottom: 10px;
       border-radius:8px;
 
     }
