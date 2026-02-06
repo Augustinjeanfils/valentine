@@ -25,4 +25,15 @@ button{
     cursor: pointer;
     width: fit-content;
 }
+.souvenir {
+    display: flex; /* Active le mode Flexbox */
+    justify-content: center; /* Aligne horizontalement (center, space-between, space-around) */
+    align-items: center; /* Aligne verticalement */
+    gap: 20px; /* Ajoute de l'espace entre les photos */
+    flex-wrap: wrap; /* Permet de passer à la ligne si l'écran est trop petit */
+  }
+img{
+    
+    width: 200px;
+}
 
