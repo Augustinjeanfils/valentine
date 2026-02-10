@@ -9,6 +9,23 @@ h1,p{
     text-align: left;
     padding: 20px;
 }
+.message{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.message h1{
+  justify-content: center;
+}
+.button-message{
+  display: grid;
+  grid-template-columns: auto auto; /* Crée deux colonnes de largeur automatique */
+  justify-content: center; /* Aligne les boutons horizontalement au centre */
+  gap: 10px; /* Ajoute un espace entre les boutons */
+    
+}
+
 .container{
     background-color: white;
     margin-bottom: 10px;
