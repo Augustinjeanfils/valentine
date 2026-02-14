@@ -3,7 +3,7 @@ function afficherSouvenir() {
 }
 
 function afficherMessage(){
-    alert("Je t'aime Princess👸❤️")
+    alert("I Love Youuuuuuuuuuuuuuuuu Princess👸❤️")
     document.querySelector('.container').style.display = 'block';
     document.querySelector('.message').style.display = 'none';
 }
